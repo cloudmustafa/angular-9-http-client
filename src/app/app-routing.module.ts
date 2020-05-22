@@ -1,4 +1,3 @@
-//import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { CreateUserComponent } from './create-user/create-user.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -9,8 +8,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'user', pathMatch: 'full' },
   { path: 'users', component: UserListComponent },
   { path: 'add', component: CreateUserComponent },
-  //{ path: 'update/:id', component: UpdateEmployeeComponent },
-  //{ path: 'details/:id', component: EmployeeDetailsComponent },
+  //{ path: 'update/:id', component: UpdateEmployeeComponent }
 ];
 
 @NgModule({
